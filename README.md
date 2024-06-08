@@ -1,44 +1,13 @@
-<h1 align="center">AI PARALEGAL - RAG based Generative Paralegal Chatbot</h1>
+AI Paralegal is an advanced, generative AI attorney chatbot designed to provide expert legal assistance based on the Indian Penal Code (IPC). Utilizing Retrieval-Augmented Generation (RAG) technology, this project leverages the capabilities of Streamlit, LangChain, and the TogetherAI API for its large language model (LLM) to ensure accurate and comprehensive legal advice.
 
+Key Features:
 
-<p align="center">
-<img src="0" width="700"/>
-</p>
+Generative AI Attorney: AI Paralegal functions as a virtual legal assistant, capable of answering a wide array of legal queries.
+Indian Penal Code Expertise: The chatbot is specifically trained on the IPC, ensuring that it provides advice and information relevant to Indian law.
+RAG Technology: By employing Retrieval-Augmented Generation, AI Paralegal enhances its responses by integrating relevant data retrieval with generative AI capabilities, ensuring more precise and contextual answers.
+User-Friendly Interface: Developed using Streamlit, the platform offers an intuitive and interactive user experience, making it accessible even for users with minimal technical knowledge.
+Advanced LLM: Powered by LangChain and TogetherAI API, the chatbot boasts a robust and sophisticated language model that supports accurate and contextually appropriate legal guidance.
+Purpose and Benefits:
+AI Paralegal is designed for individuals who may not have extensive knowledge of their legal rights or the intricacies of the IPC. Whether you're a layperson seeking to understand your legal standing or someone in need of quick and reliable legal information, AI Paralegal is here to assist. This tool democratizes access to legal knowledge, providing justice and legal clarity to those who need it.
 
-## About The Project
-LawGPT is a RAG based generative AI attorney chatbot that is trained using Indian Penal Code data. This project was developed using Streamlit LangChain and TogetherAI API for the LLM. Ask any questions to the attorney and it will give you the right justice as per the IPC. Are you a noob in knowing your rights? then this is for you!
-<br>
-
-<div align="center">
-  <br>
-  <video src="https://github.com/harshitv804/LawGPT/assets/100853494/b6711fd6-87df-4a37-ba24-317c50dc6f8f" width="400" />
-  <br>
-</div>
-
-
-
-
-### Check out the live demo on Hugging Face <a href="https://huggingface.co/spaces/harshitv804/LawGPT"><img src="https://static.vecteezy.com/system/resources/previews/009/384/880/non_2x/click-here-button-clipart-design-illustration-free-png.png" width="120" height="auto"></a>
-
-## Getting Started
-
-#### 1. Clone the repository:
-   - ```
-     git clone https://github.com/harshitv804/LawGPT.git
-     ```
-#### 2. Install necessary packages:
-   - ```
-     pip install -r requirements.txt
-     ```
-#### 3. Run the `ingest.py` file, preferably on kaggle or colab for faster embeddings processing and then download the `ipc_vector_db` from the output folder and save it locally.
-#### 4. Sign up with Together AI today and get $25 worth of free credit! 🎉 Whether you choose to use it for a short-term project or opt for a long-term commitment, Together AI offers cost-effective solutions compared to the OpenAI API. 🚀 You also have the flexibility to explore other Language Models (LLMs) or APIs if you prefer. For a comprehensive list of options, check out this link: [python.langchain.com/docs/integrations/llms](https://python.langchain.com/docs/integrations/llms) . Once signed up, seamlessly integrate Together AI into your Python environment by setting the API Key as an environment variable. 💻✨ 
-   - ```
-      os.environ["TOGETHER_API_KEY"] = "YOUR_TOGETHER_API_KEY"`
-     ```
-   - If you are going to host it in streamlit, huggingface or other...
-      - Save it in the secrets variable provided by the hosting with the name `TOGETHER_API_KEY` and key as `YOUR_TOGETHER_API_KEY`.
-
-#### 5. To run the `app.py` file, open the CMD Terminal and and type `streamlit run FULL_FILE_PATH_OF_APP.PY`.
-
-## Contact
-If you have any questions or feedback, please reach out to [harshitvenkatesan88@gmail.com]
+If you're unsure about your rights or need expert legal guidance based on the Indian Penal Code, AI Paralegal is the perfect solution. It empowers users with the knowledge they need to navigate legal matters confidently and correctly.
