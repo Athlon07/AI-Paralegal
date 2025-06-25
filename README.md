@@ -43,8 +43,8 @@ Whether you're a law student, developer, or citizen seeking legal guidance—AI 
 
 ### 🚀 Demo
 
-![AI Paralegal Demo](demo.gif)  
-> *(Insert your demo gif here, or generate one with screen recording tools)*
+![AI Paralegal Demo](AIPARALEGAL.gif)  
+
 
 ---
 
