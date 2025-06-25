@@ -1,13 +1,57 @@
-AI Paralegal is an advanced, generative AI attorney chatbot designed to provide expert legal assistance based on the Indian Penal Code (IPC). Utilizing Retrieval-Augmented Generation (RAG) technology, this project leverages the capabilities of Streamlit, LangChain, and the TogetherAI API for its large language model (LLM) to ensure accurate and comprehensive legal advice.
+# ⚖️ AI Paralegal  
+*Your Generative AI-powered legal assistant, trained on the Indian Penal Code (IPC)*
 
-Key Features:
+![LangChain](https://img.shields.io/badge/LangChain-RAG-blue)  
+![Python](https://img.shields.io/badge/Python-3.10-green)  
+![TogetherAI](https://img.shields.io/badge/TogetherAI-LLM-orange)  
+![Status](https://img.shields.io/badge/Status-Working-brightgreen)
 
-Generative AI Attorney: AI Paralegal functions as a virtual legal assistant, capable of answering a wide array of legal queries.
-Indian Penal Code Expertise: The chatbot is specifically trained on the IPC, ensuring that it provides advice and information relevant to Indian law.
-RAG Technology: By employing Retrieval-Augmented Generation, AI Paralegal enhances its responses by integrating relevant data retrieval with generative AI capabilities, ensuring more precise and contextual answers.
-User-Friendly Interface: Developed using Streamlit, the platform offers an intuitive and interactive user experience, making it accessible even for users with minimal technical knowledge.
-Advanced LLM: Powered by LangChain and TogetherAI API, the chatbot boasts a robust and sophisticated language model that supports accurate and contextually appropriate legal guidance.
-Purpose and Benefits:
-AI Paralegal is designed for individuals who may not have extensive knowledge of their legal rights or the intricacies of the IPC. Whether you're a layperson seeking to understand your legal standing or someone in need of quick and reliable legal information, AI Paralegal is here to assist. This tool democratizes access to legal knowledge, providing justice and legal clarity to those who need it.
+---
 
-If you're unsure about your rights or need expert legal guidance based on the Indian Penal Code, AI Paralegal is the perfect solution. It empowers users with the knowledge they need to navigate legal matters confidently and correctly.
+### 🧠 What is AI Paralegal?
+
+**AI Paralegal** is an intelligent legal assistant designed to help users query Indian Penal Code (IPC) laws using natural language.  
+It supports real-time retrieval, summarization, and contextual legal understanding via a **Retrieval-Augmented Generation (RAG)** pipeline.
+
+Whether you're a law student, developer, or citizen seeking legal guidance—AI Paralegal has your back.
+
+---
+
+### 🔧 Features
+
+- 🔍 Ask legal questions in plain English  
+- 📜 Get structured, clause-based IPC responses  
+- 🤖 Built using LLMs, LangChain, and TogetherAI API  
+- 📁 Custom legal dataset embedded with FAISS  
+- 🧠 Real-time RAG with semantic search  
+- 🌐 Streamlit-based UI for instant legal Q&A
+
+---
+
+### 🧰 Tech Stack
+
+| Category | Tech Used |
+|----------|-----------|
+| 💬 LLM | TogetherAI |
+| 🔗 Framework | LangChain |
+| 🔍 Vector Store | FAISS |
+| 📄 Data | IPC Law JSON Corpus |
+| 🧠 RAG Engine | Context + Query Chain |
+| 🎯 Interface | Streamlit |
+
+---
+
+### 🚀 Demo
+
+![AI Paralegal Demo](demo.gif)  
+> *(Insert your demo gif here, or generate one with screen recording tools)*
+
+---
+
+### 🛠️ Setup
+
+```bash
+git clone https://github.com/Sujal-py3/AI-Paralegal.git
+cd AI-Paralegal
+pip install -r requirements.txt
+streamlit run app.py
